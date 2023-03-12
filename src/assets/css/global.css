@@ -1,0 +1,196 @@
+.mainwrap {
+  background-color: #fff;
+  padding: 20px;
+  min-height: calc( 100% - 40px);
+}
+
+.mainwrap .title {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.el-table thead {
+  color: #333;
+}
+
+.el-table thead tr th.el-table__cell {
+  background: #f6f6f6;
+  color: #666;
+}
+
+.el-table__body tr {
+  color: #333;
+  font-size: 14px;
+}
+
+.el-form-item--mini.el-form-item, .el-form-item--small.el-form-item {
+  margin-bottom: 28px;
+}
+
+.img-uploader .el-upload__tip {
+  margin-top: -8px;
+}
+
+.pagination {
+  padding-top: 20px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.myeditor {
+  height: 200px;
+}
+
+.myeditor .ql-container {
+  height: 80%;
+}
+
+.img-uploader .el-upload {
+  width: 178px;
+  height: 178px;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-uploader .el-upload .deletewrap {
+  position: absolute;
+  width: 178px;
+  height: 178px;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.img-uploader .el-upload .deletewrap .el-icon-delete {
+  font-size: 28px;
+  line-height: 178px;
+}
+
+.img-uploader .el-upload .el-icon-plus {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+
+.img-uploader .el-upload .imgbox {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+
+.img-uploader .el-upload:hover {
+  border-color: #409eff;
+  position: relative;
+}
+
+.img-uploader .el-upload:hover .deletewrap {
+  opacity: 1;
+}
+
+.img-list-uploader {
+  width: 800px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-list-uploader .el-upload__tip {
+  margin-top: 0px;
+}
+
+.img-list-uploader .el-upload-list__item {
+  width: 178px;
+  height: 178px;
+  position: relative;
+}
+
+.img-list-uploader .el-upload--picture-card {
+  width: 178px;
+  height: 178px;
+}
+
+.img-list-uploader .el-upload-list--picture-card {
+  display: inline-block;
+  height: 178px;
+}
+
+.img-list-uploader .el-icon-plus {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+
+.img-list-uploader .imgbox {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+
+.img-list-uploader .deletewrap {
+  position: absolute;
+  width: 178px;
+  height: 178px;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.img-list-uploader .deletewrap .el-icon-delete {
+  cursor: pointer;
+  font-size: 28px;
+  line-height: 178px;
+}
+
+.img-list-uploader .el-upload-list__item:hover {
+  border-color: #409eff;
+  position: relative;
+}
+
+.img-list-uploader .el-upload-list__item:hover .deletewrap {
+  opacity: 1;
+}
+
+.btnwrap {
+  padding-top: 20px;
+}
+
+.btnwrap .btnlist {
+  margin-left: 170px;
+}
+
+.btnwrap .btnlist .el-button:nth-child(1) {
+  margin-right: 40px;
+}
+
+.btnwraps {
+  padding-top: 20px;
+  display: flex;
+}
+
+.btnwraps .btnlist {
+  justify-content: space-around;
+}
+
+.btnwraps .btnlist .el-button:nth-child(1) {
+  margin-right: 40px;
+}
+
+.formitem-error .el-input__inner {
+  border-color: #F56C6C;
+}
